@@ -14,7 +14,7 @@ public class Investigatore {
 
 
     public void analizza (Sospettato s, Vittima v){
-        System.out.println("* Investigatore: ");
+        System.out.println("\n* Investigatore: ");
         System.out.println("\tNome vittima: " + v.getCognome_nome());
         System.out.println("\tDescrizione: " + v.getDescrizione());
         System.out.println("\tSospettato: " + s.getCognome_nome());
